@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+h2 {
+    color: #2676FF;
+}
+
 /*  */
 
 header {
@@ -28,4 +32,48 @@ header {
 #navigation a {
     color: #000;
     text-decoration: none;
+}
+
+/*  */
+
+#prenota {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+#prenota p {
+    margin: 15px 0;
+}
+
+#cta {
+    background-color: #2676FF;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+/*  */
+
+#info {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    margin-top: 30px;
+}
+
+.info-btn {
+    background-color: #2676FF;
+    color: #fff;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
 }
